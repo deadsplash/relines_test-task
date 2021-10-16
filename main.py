@@ -9,7 +9,7 @@ import requests
 '''
 
 
-url = 'https://ma.hse.ru/'
+url = 'https://habr.com/ru/'
 
 r = requests.get(url).text
 
@@ -20,18 +20,26 @@ soup = BeautifulSoup(r, 'lxml')
 #   habr и howtogeek держат главное в h2
 # find_all_articles = soup.find('main').findAll('span')  # habr.com/ru personally
 # find_all_articles = soup.find('main').findAll('h2') # howtogeek.com personally
-find_all_articles = soup.findAll('h2') # работает с обоими
+# find_all_articles = soup.findAll('h2') # работает с обоими
 
 # find_all_articles = soup.find('div').findAll('a')  # hacker.ru
 
 # find_all_articles = soup.find('div').findAll('span')  # https://dtf.ru/
 
-#print(find_all_articles)   # for debug needs
+find_all_articles = soup.findAll('article')
+
+# print(find_all_articles)   # for debug needs
 
 
 for i in range(len(find_all_articles)):
-    item = find_all_articles[i].text.strip()
-    # отсекаем лишние данные от заголовков
-    if len(item) > 20:
-        print(item)
+    print("""
+        """)
+    item = find_all_articles[i].find('h2').text
+    print(item)
+    try:
+        pic = find_all_articles[i].find('img').get('src')
+        print(str(pic).replace('//', '').replace('https:', ''))
+    except Exception as ex:
+        print('no picture here')
+        pass
 
