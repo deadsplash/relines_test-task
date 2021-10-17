@@ -1,40 +1,74 @@
-Дайджест интересных материалов для мобильного разработчика #415 (11 — 17 октября)
+Дайджест свежих материалов из мира фронтенда за
+последнюю неделю №489 (11 — 17 октября 2021)
+habrastorage.org/r/w32/getpro/habr/avatars/d2a/e8a/5ac/d2ae8a5ac9876f838ebdd45f3ea3bc3b.png
+
+Опыт внедрения многомодульности в (еще) не
+разросшееся приложение (Часть 1)
+habrastorage.org/r/w32/getpro/habr/avatars/be9/c18/263/be9c18263d5f9e6e8aa79ff6982b3ce3.png
+
+Расширение и перемещение ансамбля ZooKeeper
+habrastorage.org/getpro/habr/upload_files/e3b/9eb/8da/e3b9eb8dab56f1311740cb1822d050b3.jpg
+
+Как включить в игру на UE4 достижения Steam
+habrastorage.org/r/w32/getpro/habr/avatars/484/015/0ba/4840150ba886e588a4b065718b3791ec.jpg
+
+FOSS News №92 — дайджест материалов о свободном и
+открытом ПО за 4—17 октября 2021 года
+habrastorage.org/r/w32/getpro/habr/avatars/390/2c3/669/3902c3669d69c0b80b41b876d772a113.jpg
+
+Заметки стартап-предпринимателя или истории о том,
+что я хотел бы знать когда переезжал и открывал
+компанию в России
+habrastorage.org/r/w32/getpro/habr/avatars/806/89b/b2f/80689bb2fe67534fcb09fa31aa97b4f0.png
+
+Об использовании пустого регулярного выражения в
+Perl ( m// )
+habrastorage.org/r/w32/getpro/habr/avatars/aac/5f9/1fc/aac5f91fc5b0433359fa918a33e41310.jpg
+
+Почему в Ember не нужны React-хуки
+habrastorage.org/r/w32/getpro/habr/avatars/490/10f/cf1/49010fcf1f93897586120a940619414a.jpg
+
+Дайджест интересных материалов для мобильного
+разработчика #415 (11 — 17 октября)
+habrastorage.org/r/w32/getpro/habr/avatars/e7d/d1f/7ae/e7dd1f7ae26609981edce6deabc5d751.png
 
 Самые гибкие todo в Телеграме в две строчки кода
+habrastorage.org/r/w32/getpro/habr/avatars/506/92d/884/50692d884f6fec5baaf0d45f092516c9.jpg
 
 Вкладки браузера разрушают ваш мозг
+habrastorage.org/webt/ou/l-/it/oul-ita6-niposjrfmorjjpxlya.png
 
-GPU (desktop/laptop) Passthrough (Проброс видеокарты в ВМ) в ProxMox. Нюансы настроек. переезжаем в Linux
+GPU (desktop/laptop) Passthrough (Проброс
+видеокарты в ВМ) в ProxMox. Нюансы настроек.
+переезжаем в Linux
+habrastorage.org/getpro/habr/post_images/1cd/62e/a56/1cd62ea56d9eb4e846e58712d235e119.jpg
 
 Самодельная клавиатура
+habrastorage.org/r/w32/getpro/habr/avatars/e36/812/d3d/e36812d3de38eb3d479d7a13228717ef.png
 
-Как интегрировать веб-компоненты с помощью Lit в Angular
+Как интегрировать веб-компоненты с помощью Lit в
+Angular
+habrastorage.org/getpro/habr/upload_files/41c/e2f/9fd/41ce2f9fd2ad1d9538667095ea69d8d1.png
 
-Перестаньте врать себе. Я middle, а вам нужен senior
+Перестаньте врать себе. Я middle, а вам нужен
+senior
+habrastorage.org/getpro/habr/upload_files/6aa/258/5b1/6aa2585b1c07c03be11350e3bfc24818.jpeg
 
-И снова испанская барахолка: считаем звезды, вспоминаем прошлое сотовых и снимаем все на пленку
+И снова испанская барахолка: считаем звезды,
+вспоминаем прошлое сотовых и снимаем все на пленку
+habrastorage.org/r/w32/getpro/habr/avatars/126/32f/feb/12632ffebec0f851ba0ec665f3ed6c55.jpg
 
 Как проводить собеседования объективно и с пользой
+habrastorage.org/r/w32/getpro/habr/avatars/943/093/6f0/9430936f0cf1c1b476000528a1711e74.png
 
 Автоматическая раздача прав на файловом сервере
+habrastorage.org/getpro/habr/upload_files/966/de9/847/966de984763127fa30046972f29c9912.jpg
 
-Разбираемся с цветами, палитрами, фильтрами CSS и не только
+Разбираемся с цветами, палитрами, фильтрами CSS и
+не только
+habrastorage.org/r/w32/getpro/habr/avatars/96e/81d/bc0/96e81dbc01247c6c855b1806b355efa3.jpg
 
-Откуда берётся экономический рост? Понятие и происхождение богатства в экономике
-
-Несбывшаяся, но не несбыточная история городов-магистралей
-
-Шифры замены и табличного гаммирования
-
-Какой маркиратор экономически выгоднее купить — лазерный, ударно-точечный, каплеструйный?
-
-Антиплагиат исходного кода: гибридный подход с использованием парсера ANTLR
-
-Xilinx дорого-богато? Или ищем бюджетные варианты
-
-Вопросы российскому микробиологу: о коронавирусе, лабораторных животных, госфинансировании и не только
-
-Ядерная физика и VR: как в МИФИ нам удалось подружить современную науку, технологии и образовательный процесс
-
-Для чего компании нужен UI KIT? (Frontend + Design)
+Откуда берётся экономический рост? Понятие и
+происхождение богатства в экономике
+habrastorage.org/r/w32/getpro/habr/avatars/904/bf1/701/904bf170145187adb5d17f33dc399296.png
 

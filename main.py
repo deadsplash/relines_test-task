@@ -1,8 +1,9 @@
 from bs4 import BeautifulSoup
 import requests
+import textwrap
 
 
-def parser(url, save_img=False, save_to_txt=False):
+def parser(url, save_img=False, save_to_txt=False, line_length=20):
 
     save = dict()
     r = str()
@@ -22,7 +23,7 @@ def parser(url, save_img=False, save_to_txt=False):
         print('Unable to parse this URL')
         exit()
 
-    if len(find_all_articles[1].find(finder).text) < 30:
+    if len(find_all_articles[1].find(finder).text.strip()) < 30:
         finder = 'h2'
     else:
         print(len(find_all_articles))
@@ -45,7 +46,7 @@ def parser(url, save_img=False, save_to_txt=False):
                     print(pic + '\n' + '\n')
                     # делаем человеческие отступы
                     save[item] = pic + '\n'
-                except:
+                except Exception:
                     pass
 
         except Exception:
@@ -54,7 +55,10 @@ def parser(url, save_img=False, save_to_txt=False):
     if save_to_txt is True:
         with open('result.txt', 'w', encoding='UTF-8') as f:
             for i in save:
-                f.write(i + '\n' + save[i] + '\n')
+                article_list = textwrap.wrap(i, line_length)
+                for article in article_list:
+                    f.write(article + '\n')
+                f.write(save[i] + '\n')
 
 
 def main():
@@ -82,7 +86,15 @@ def main():
         save_to_txt = False
         print('Wrong input, script will not save into text.')
 
-    parser(url, save_img=save_img, save_to_txt=save_to_txt)
+    print('Please, define line length: ')
+    line_length = int()
+    try:
+        line_length = int(input())
+    except Exception as ex:
+        print('Error: ', ex)
+        exit()
+
+    parser(url, save_img=save_img, save_to_txt=save_to_txt, line_length=line_length)
 
 
 if __name__ == '__main__':
