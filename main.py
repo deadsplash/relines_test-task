@@ -2,9 +2,6 @@ from bs4 import BeautifulSoup
 import requests
 
 
-url = 'https://xakep.ru/'
-
-
 def parser(url, save_img=False, save_to_txt=False):
 
     save = dict()
