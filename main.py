@@ -20,27 +20,32 @@ url = 'https://habr.com/ru/'
 def parser(url, save_img=False, save_to_txt=False):
 
     save = dict()
+    r = str()
 
-    r = requests.get(url).text
+    try:
+        r = requests.get(url).text
+    except Exception as ex:
+        print('Error:  ', ex)
+        exit()
 
     soup = BeautifulSoup(r, 'lxml')
 
     find_all_articles = soup.findAll('article')
 
+    #   used for article type HTML
     for i in range(len(find_all_articles)):
 
         try:
-            print("""
-                """)
+
             item = find_all_articles[i].find('h2').text
             print(item)
             save[item] = ""
 
-            if save_img is True:
+            if save_img is True and len(item) > 5:
                 try:
                     pic = str(find_all_articles[i].find('img').get('src')).replace('//', '').replace('https:', '')
-                    print(pic)
-                    save[item] = pic
+                    print(pic + '\n' + '\n')
+                    save[item] = pic + '\n'
                 except:
                     pass
         except:
@@ -49,7 +54,7 @@ def parser(url, save_img=False, save_to_txt=False):
     if save_to_txt is True:
         with open('result.txt', 'w', encoding='UTF-8') as f:
             for i in save:
-                f.write(i + '\n' + save[i] + '\n' + '\n')
+                f.write(i + '\n' + save[i] + '\n')
 
 
-parser(url, save_img=True, save_to_txt=True)
+parser(url, save_img=False, save_to_txt=True)

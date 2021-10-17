@@ -1,60 +1,40 @@
-Почему HeadHunter это Tinder
-habrastorage.org/r/w32/getpro/habr/avatars/c15/5d8/f99/c155d8f9940b5f52bcf9665c8d477c91.jpg
+Самые гибкие todo в Телеграме в две строчки кода
 
-Классические ошибки управления проектами при запуске стартапов
-habrastorage.org/r/w32/getpro/habr/avatars/043/caf/08d/043caf08dc1e6ed1c42de86df33d9045.jpg
+Вкладки браузера разрушают ваш мозг
 
-Fast Reverse Proxy как альтернатива Ngrok
-habrastorage.org/r/w32/getpro/habr/avatars/982/55d/5ff/98255d5ff6b1f04ab953a572f8a9f4f5.jpg
+GPU (desktop/laptop) Passthrough (Проброс видеокарты в ВМ) в ProxMox. Нюансы настроек. переезжаем в Linux
 
-Из чего состоит метавселенная. Стек будущего
-habrastorage.org/r/w32/getpro/habr/avatars/932/f55/826/932f558260cfcd47f151d8e97446bae2.jpg
+Самодельная клавиатура
 
-Карта гулябельности Санкт-Петербурга
-habrastorage.org/getpro/habr/upload_files/540/189/fa9/540189fa965da8a62a391f3f97659115.png
+Как интегрировать веб-компоненты с помощью Lit в Angular
 
-100% загрузка CPU: моя вина?
-habrastorage.org/r/w32/getpro/habr/avatars/f9c/ff9/7d9/f9cff97d9c0677af28dab451897f88e4.jpg
+Перестаньте врать себе. Я middle, а вам нужен senior
 
-Анализ и визуализация данных в финансах — анализ ETF с использованием Python
-habrastorage.org/getpro/habr/upload_files/3f3/ff5/d27/3f3ff5d27f44d40b7b07483d694bb412.png
+И снова испанская барахолка: считаем звезды, вспоминаем прошлое сотовых и снимаем все на пленку
 
-Chaos engineering: Начало
-habrastorage.org/getpro/habr/upload_files/255/ec8/6ed/255ec86edc6e5dff3e549d730ac7db30.jpg
+Как проводить собеседования объективно и с пользой
 
-Тёплый ламповый звук как норма жизни: лучшие советские радиолы
-habrastorage.org/r/w32/getpro/habr/avatars/53f/0b2/fad/53f0b2fadb4030a4e26a0ce861adc034.jpg
+Автоматическая раздача прав на файловом сервере
 
-Ontol: самые полезные материалы про визы О-1 и грин-карты
-habrastorage.org/r/w32/getpro/habr/avatars/58b/b18/cc9/58bb18cc940f2ce0aaedcb35d3ea21b8.jpg
+Разбираемся с цветами, палитрами, фильтрами CSS и не только
 
-Дайджест киберинцидентов Acronis #12
-habrastorage.org/r/w32/getpro/habr/avatars/c04/19e/cfc/c0419ecfc621e35042c804206728d309.jpg
+Откуда берётся экономический рост? Понятие и происхождение богатства в экономике
 
-Невыносимая легкость контрибьюта в Open Source
+Несбывшаяся, но не несбыточная история городов-магистралей
 
+Шифры замены и табличного гаммирования
 
-Синтезированные ИИ голоса актеров позволяют обходиться без иностранной озвучки
-habrastorage.org/getpro/habr/upload_files/a94/6f2/721/a946f27215974d767368af010c94c48d.png
+Какой маркиратор экономически выгоднее купить — лазерный, ударно-точечный, каплеструйный?
 
-Еще одна модель динамического ценообразования
-habrastorage.org/r/w32/getpro/habr/avatars/4aa/37a/985/4aa37a9857149222324ccb5f9e4e68c4.jpg
+Антиплагиат исходного кода: гибридный подход с использованием парсера ANTLR
 
-Первый донат спустя год. FAQ Net — записная книжка, программа заметок (бесплатно)
-habrastorage.org/getpro/habr/upload_files/55b/90f/8f4/55b90f8f4db5298ef69452264b82be55.jpg
+Xilinx дорого-богато? Или ищем бюджетные варианты
 
-Распознаём позу прямо в браузере в реальном времени
-habrastorage.org/r/w32/getpro/habr/avatars/96e/81d/bc0/96e81dbc01247c6c855b1806b355efa3.jpg
+Вопросы российскому микробиологу: о коронавирусе, лабораторных животных, госфинансировании и не только
 
-8 ошибок в резюме, которые лучше не допускать разработчику
-habrastorage.org/getpro/habr/upload_files/ed6/62d/793/ed662d793fdf7e887a0e091f433bfe9e.jpeg
+Ядерная физика и VR: как в МИФИ нам удалось подружить современную науку, технологии и образовательный процесс
 
-Представляем Ansible Automation Platform 2
-habrastorage.org/r/w32/getpro/habr/avatars/592/816/4a9/5928164a9c2b4d0e7693ebb16e0f792a.png
+Для чего компании нужен UI KIT? (Frontend + Design)
 
-Ой, зачем это? 5 изобретений, которых не ждешь от корпораций
-habrastorage.org/r/w32/getpro/habr/avatars/33c/36d/713/33c36d713e1f4884fcabc7ba045c2a3e.jpg
-
-Как быстро обновить много серверов 1С
-habrastorage.org/getpro/habr/upload_files/28a/7ce/931/28a7ce931012ba51764f50d36662af6b.jpg
+19 видов льда
 
