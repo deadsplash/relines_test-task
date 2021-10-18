@@ -8,3 +8,7 @@ lxml==4.6.3
 requests==2.26.0
 soupsieve==2.2.1
 urllib3==1.26.7
+
+*HOW TO INSTALL*
+
+pip install beautifulsoup4 lxml requests

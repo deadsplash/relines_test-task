@@ -3,7 +3,7 @@ import requests
 import textwrap
 
 
-def parser(url, save_img=False, save_to_txt=False, line_length=20):
+def parser(url, save_img=True, save_to_txt=True, line_length=50):
 
     save = dict()
     r = str()
@@ -11,7 +11,7 @@ def parser(url, save_img=False, save_to_txt=False, line_length=20):
     try:
         r = requests.get(url).text
     except Exception as ex:
-        print('Error:  ', ex)
+        print('Requests error:  ', ex)
         exit()
 
     soup = BeautifulSoup(r, 'lxml')
@@ -20,8 +20,7 @@ def parser(url, save_img=False, save_to_txt=False, line_length=20):
     finder = 'span'
 
     if len(find_all_articles) < 2:
-        print('Unable to parse this URL')
-        exit()
+        return print('Unable to parse this URL')
 
     if len(find_all_articles[1].find(finder).text.strip()) < 30:
         finder = 'h2'
