@@ -1,6 +1,9 @@
 from bs4 import BeautifulSoup
 import requests
 import textwrap
+from flask import Flask, render_template, redirect
+
+app = Flask(__name__)
 
 
 def parser(url, save_img=True, save_to_txt=True, line_length=50):
@@ -60,6 +63,11 @@ def parser(url, save_img=True, save_to_txt=True, line_length=50):
                 f.write(save[i] + '\n')
 
 
+@app.route('/', methods=['GET'])
+def parser():
+    return 'Hello'
+
+
 def main():
 
     print("URL: ")
@@ -97,4 +105,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    app.run(debug=True, port=3000)
